@@ -2,13 +2,14 @@
 
 Small Data Analysis / Machine Learning projects using self collected data.
 
-## Commute Times
+## Artist Clustering
 
-Three years collecting commute times resulted in a data set with 350 observations. This project consists of visualizations of the relationship of Trip Duration and Trip Start Time.
+Using my own music listening data from LastFM from 2014 to 2018, performed a clustering analysis to group artists with similar listening patterns.
 
-**Technologies:** Python, pandas, matplotlib, seaborn
+**Technologies:** Python, pandas, sklearn, matplotlib
 
-![Commutes](/Commutes/violin_plot.png)
+![Clustering](/Artist_Year_Clustering/clustering.png)
+
 
 ## Pomodoro Technique Productivity
 
@@ -19,10 +20,10 @@ Three years collecting commute times resulted in a data set with 350 observation
 ![Time Series](/Pomos/weekly_time_series.gif)
 
 
-## Artist Clustering
+## Commute Times
 
-Using my own music listening data from LastFM from 2014 to 2018, performed a clustering analysis to group each artists with same listening patterns.
+Three years collecting commute times resulted in a dataset with 350 observations. This project consists of visualizations of the relationship of Trip Duration and Trip Start Time.
 
-**Technologies:** Python, pandas, sklearn, matplotlib
+**Technologies:** Python, pandas, matplotlib, seaborn
 
-![Clustering](/Artist_Year_Clustering/clustering.png)
+![Commutes](/Commutes/violin_plot.png)
